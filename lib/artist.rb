@@ -2,7 +2,7 @@ def Artist
   attr_accessor :name
 
   def initialize(name)
-    @name.new
+    @name = self.new
   end
 
 end
