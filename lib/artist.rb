@@ -3,12 +3,11 @@ def Artist
 
   def new(name)
     @name = name
-
   end
 
-  def initialize(name)
-    self.new
-    @name = name
+  def initialize
+    new
+
   end
 
 end
